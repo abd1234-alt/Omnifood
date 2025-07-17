@@ -1,0 +1,289 @@
+@media (max-width: 71.125em) {
+    .form-btn-1 {
+        transform: translateY(4rem);
+    }
+}
+
+@media (max-width: 62.5em) {
+    .meals-grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .meal-grid-3 {
+        display: flex;
+        margin-inline-start: 60%;
+    }
+}
+
+@media (max-width: 56.25em) {
+
+    .header-content {
+        display: none;
+        color: #FCF2E9;
+    }
+
+    header ul {
+        display: none;
+        gap: .1rem;
+        display: none;
+    }
+
+    header ul li {
+        font-size: .1rem;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-1 h2 {
+        margin-block-end: 2.3rem;
+    }
+
+    .delivery {
+        justify-content: center;
+    }
+
+    .hero-1 {
+        text-align: center;
+    }
+
+    .hero-2 {
+        margin: 0 auto;
+    }
+
+    .brands {
+        gap: 2.7rem;
+    }
+
+    .about-grid {
+        gap: 6rem;
+    }
+
+    .testimonial {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials {
+        row-gap: 5rem;
+    }
+
+    .testimonial-images {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+    .price-1 {
+        padding-block-end: 8.5rem;
+    }
+
+    /* .ribbon-container {
+        display: none;
+    } */
+
+    .principle-container {
+        gap: 2rem;
+        margin-block-end: 5rem;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    .form {
+        padding: 1.5rem;
+    }
+
+    .form-desc h2 {
+        font-size: 3.5rem;
+    }
+
+    .form-info {
+        margin-block-end: 1rem;
+        margin-inline-end: 0rem;
+    }
+
+    .form-info input, select, .form-btn {
+        width: 100%;
+    }
+
+    .form-btn {
+        height: 100%;
+        transform: translateY(-0.1vw);
+    }
+
+    .form-img {
+        overflow: hidden;
+    }
+
+    footer {
+        grid-template-rows: 1fr;
+        gap: 3rem;
+    }
+
+}
+
+@media (max-width: 53.75em) {
+    .ribbon-container {
+        left: 14rem;
+    }
+
+    .ribbon {
+        font-size: 1.2rem;
+        left: 5rem;
+    }
+}
+
+@media (max-width: 47.5em) {
+    .about-grid, .about-grid-2 {
+        display: flex;        
+    }
+
+    .about-grid {
+        flex-direction: column;
+    }
+
+    .about-grid-2 {
+        flex-direction: column-reverse;
+    }
+
+    .principle-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 8rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* display: flex; */
+        /* flex-direction: column-reverse; */
+    }
+}
+
+@media (max-width: 44.625em) {
+    .price-container {
+        width: fit-content;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .meals-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .meal-grid-3 {
+        margin: 0 auto;
+    }
+
+    .ribbon-container {
+        left: 18rem;
+    }
+
+    .ribbon {
+        top: .8rem;
+    }
+}
+
+@media (width < 37.5em) {
+    .principle-container {
+        gap: 3rem;
+    }
+
+    .inner-form {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .form-img {
+        justify-content: center;
+        grid-row: 1;
+        padding: 2rem;
+    }
+
+    .form-img img {
+        border-radius: 6%;
+    }
+}
+
+@media (max-width: 28.44em) {
+
+    .home {
+        padding: 1.2rem 2rem;
+    }
+
+    .hero-1 h2 {
+        font-size: 3rem;
+    }
+
+    .hero-1 p {
+        font-size: 1.7rem;
+    }
+
+    header .header-content {
+        gap: 0rem;
+    }
+
+    .primary-button-style {
+        padding: .6rem 1.7rem !important;
+    }
+
+    .home-buttons {
+        margin-block-end: 7%;
+    }
+
+    .start {
+        margin-inline-start: 5%;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .desc-head {
+        font-size: 1.8rem;
+    }
+
+    .desc {
+        font-size: 1.8rem;
+    }
+
+    .phone {
+        width: 25rem;
+    }
+
+    .form-img {
+        padding: 0rem;
+    }
+
+    .brands {
+        gap: 2rem;
+    }
+
+    .testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing {
+        /* margin-inline-start: -7%; */
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .price {
+        width: 28rem;
+    }
+
+    .principle-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 28.38em) {
+    .ribbon-container {
+        left: 13rem;
+    }
+}

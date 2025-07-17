@@ -1,0 +1,31 @@
+.principle-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7rem;
+    /* padding-inline: 10rem; */
+    padding-block: 6rem 8rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.principle-icon {
+    background-color: #FCF2E9;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    justify-content: center;
+    color: #cf6604;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-block-end: 2rem;
+}
+
+.principle h2 {
+    font-size: 2rem;
+    margin-block-end: 1rem;
+}
+
+.principle p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}

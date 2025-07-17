@@ -1,0 +1,85 @@
+.pricing {
+    padding: 7rem;
+}
+
+.price-container {
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+.price {
+    padding: 2rem;
+    width: 35rem;
+    overflow: hidden;
+}
+
+.price-1 {
+    border: #00000038 .1rem solid;
+    padding-bottom: 8.5rem;
+}
+
+.price-2 {
+    background-color: #FCF2E9;
+}
+
+.price-head, .price h2, .price p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.price h2 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.dollar {
+    font-size: 3rem;
+    margin-inline-end: .5vw;
+}
+
+.price p {
+    /* color: #2F2E2F; */
+    font-size: 1.5rem;
+    margin-block-end: 2rem;
+}
+
+.price-content ul {
+    line-height: 2.2;
+}
+
+.price-content ul li {
+    font-size: 1.7rem;
+}
+
+.price-tag {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FCD537;
+    padding: .4rem 1rem;
+    transform: rotate(-45deg);
+}
+
+.ribbon-container {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FCD537;
+    padding: .4rem 1rem;
+    width: 26rem;
+    height: 3rem;
+    transform: rotate(40deg);
+    left: 18rem;
+}
+
+.ribbon {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    left: 5.5rem;
+}
+
+.price-btn {
+    margin: 3% 0% 0% 30%;
+}

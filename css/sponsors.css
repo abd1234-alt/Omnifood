@@ -1,0 +1,8 @@
+.brands {
+   justify-content: center;
+   gap: 5.5rem;
+}
+
+.brands img{
+    width: 15vw; 
+}
