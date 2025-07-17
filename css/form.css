@@ -1,0 +1,112 @@
+.form-section {
+    background-color: #e78731;
+    width: 90%;
+    margin: 0rem auto 5rem auto;
+    border-radius: 1.5rem;
+    /* height: 50vh; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: .1rem .1rem 2rem .3rem #41414162;
+}
+
+.inner-form {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: start;
+    column-gap: 3rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    /* padding: 2rem; */
+}
+
+.form {
+    /* padding: 2rem; */
+    padding: 4rem 6rem;
+    width: 100%;
+}
+
+.form-desc h2 {
+    font-size: 4rem;
+    color: #2f1800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-block-end: 2rem;
+    font-weight: 900;
+}
+
+.form-desc p {
+    font-size: 2rem;
+    margin-block-end: 3rem;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-block-end: 2.5rem;
+    margin-inline-end: 2rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 50rem; */
+}
+
+.form-info label {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.form-info input, select, .form-btn {
+    /* width: 30rem; */
+    padding: 1.4rem;
+    border-radius: .5rem;
+    /* border: #e78731 .3rem solid; */
+    border: none;
+    outline: none;
+    background-color: #FCF2E9;
+}
+
+.form-info input::placeholder, option {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+}
+
+.form-info input:focus {
+    border: #FCF2E9 .4rem solid;
+}
+
+.form-btn {
+    height: 50%;
+    background-color: #2f1800;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    transform: translateY(3rem);
+}
+
+.form-btn-1 {
+    transition: all 0.4s ease-in-out;
+}
+
+.form-btn-1:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: scroll;
+}
+
+.form-img {
+    height: 100%;
+    display: flex;
+    justify-content: end; 
+}
+
+.form-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;    
+}
+
+
+

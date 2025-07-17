@@ -1,0 +1,61 @@
+footer {
+    width: 100%;
+    color: #000000b4;
+    gap: 6rem;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    /* margin-block-start: 10rem; */
+}
+
+.omnifood-logo, .footer-icons, .footer-content h2, .footer-content p {
+    margin-block-end: 3rem;
+}
+
+.footer-icons {
+    gap: 2rem;
+}
+
+.footer-icons i {
+    font-size: 3rem;
+    padding: .6rem;
+    transition: all 0.6s linear;
+}
+
+.footer-icons i:hover {
+    color: white;
+    padding: .6rem;
+    transition: all .6s linear;
+}
+
+.footer-icons i:nth-child(2):hover {
+   background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+   border-radius: 1.2rem;
+   
+}
+
+.footer-icons i:nth-child(1):hover {
+    background-color: #1877F2;
+    border-radius: 50%;
+    
+}
+
+.footer-icons i:nth-child(3):hover {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.footer-content h2 {
+    font-size: 1.9rem;
+}
+
+.footer-content p, li {
+    font-size: 1.5rem;
+}
+
+.footer-content .next-ul {
+    line-height: 2;
+}
